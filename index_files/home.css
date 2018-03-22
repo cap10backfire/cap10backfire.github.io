@@ -1,0 +1,21 @@
+﻿@charset "UTF-8";
+   
+header {
+    background: none repeat scroll 0 0 #004524;
+    /* border-bottom: 3px solid #ffc82c;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    max-height: 140px;
+}
+p.login {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: #7C7C7C;
+}

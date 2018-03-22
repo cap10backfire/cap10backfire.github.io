@@ -1,0 +1,218 @@
+﻿/* Container Styles for DotNetNuke */
+.containerWrapper {padding: 10px; margin: 0px; background: transparent;}
+.containerWrapper:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+/* Hides from IE-mac \*/
+* html .containerWrapper {height: 1%;}
+/* End hide from IE-mac */
+.titleWrapper {margin: 0; padding: 0px;}
+.dnnSol {padding: 0; margin: 0;}
+.dnnTitle {margin: 0px; padding: 0; }
+.moduleTitle {margin: 0; padding: 0; font-weight: bold; font-size: 18px; color: #646464;}
+.containerContent {padding:0;}
+.footWrapper {padding: 0; margin: 0;}
+
+
+/* old styles
+
+.containerWrapper {padding: 0px; margin: 0 0 0 5px; }
+.titleWrapper {margin: 0; padding: 0;}
+.dnnSol {padding: 0; margin: 0;}
+.dnnTitle {margin: 0px 3px 3px 3px; padding: 0; color: #4f4f4f !important;}
+.moduleTitle {margin: 10px 0 0 0 !important; padding: 0;}
+.containerContent {padding:0;}
+.footWrapper {padding: 0; margin: 0;}
+
+*/
+
+/*======================================================
+Green Gradient Title Container Fixed height has a white background and utilizes CSS3 elements
+======================================================*/
+.gtcontainerwrap {padding: 10px; margin: 20px 0px 0px 0px; background-color: white; box-shadow: 0px 0px 3px 2px rgba(0,0,0, .25); border: 1px solid #D3D3D3; min-height: 350px;}
+.gttitlewrap {margin: 0px; padding: 6px; background: #006233 url(images/greenBackGround.png) repeat-x bottom; border: solid 1px #1B1B1B; }
+.gtdnnTitle {margin: 0; padding: 0; font-weight: bold;}
+.gtmoduleTitle {margin:0; padding: 0; color: #ffffff;}
+.gtcontainerContent {padding:0; margin: 10px 0px 0px 0px; }
+
+/*======================================================
+Green Gradient Title Container fluid height has a white background and utilizes CSS3 elements
+======================================================*/
+.gtfhcontainerwrap {padding: 10px; margin: 20px 0px 20px 0px; background-color: white; /* box-shadow: 0px 0px 3px 2px rgba(0,0,0, .25);*/ border: 1px solid #D3D3D3; }
+.gtfhtitlewrap {margin: 0px; padding: 6px; background: #006233 url(images/greenBackGround.png) repeat-x bottom; border: solid 1px #1B1B1B; }
+.gtfhdnnTitle {margin: 0; padding: 0; font-weight: bold;}
+.gtfhmoduleTitle {margin:0; padding: 0; color: #ffffff;}
+.gtfhcontainerContent {padding:0; margin: 10px 0px 0px 0px; }
+
+/*======================================================
+Gold Gradient Title Container fluid height has a white background and utilizes CSS3 elements
+======================================================*/
+.goldtfhcontainerwrap {padding: 10px; margin: 20px 0px 0px 0px; background-color: white; box-shadow: 0px 0px 3px 2px rgba(0,0,0, .25); border: 1px solid #D3D3D3; }
+.goldtfhtitlewrap {margin: 0px; padding: 6px; background: #ffc62c url(images/goldBackGround.png) repeat-x bottom; border: solid 1px #1B1B1B; }
+.goldtfhdnnTitle {margin: 0; padding: 0; font-weight: bold;}
+.goldtfhmoduleTitle {margin:0; padding: 0; color: #ffffff;}
+.goldtfhcontainerContent {padding:0; margin: 10px 0px 0px 0px; }
+
+
+/*======================================================
+Gray Gradient Title Container fluid height has a white background and utilizes CSS3 elements
+======================================================*/
+.grfhcontainerwrap {padding: 10px; margin: 20px 0px 0px 0px; background-color: white; box-shadow: 0px 0px 3px 2px rgba(0,0,0, .25); border: 1px solid #D3D3D3; }
+.grfhtitlewrap {margin: 0px; padding: 6px; background: #ccc url(images/cal_h3_bg.png) repeat-x bottom; border: solid 1px #1B1B1B; }
+.grfhdnnTitle {margin: 0; padding: 0; font-weight: bold;}
+.grfhmoduleTitle {margin:0; padding: 0; color: #ffffff;}
+.grfhcontainerContent {padding:0; margin: 10px 0px 0px 0px; }
+
+/*======================================================
+White Title Container. Special purpose is the dark green area at the bottom of the page. 
+======================================================*/
+.wtcontainerWrap {padding: 5px; margin: 0; height: 300px; }
+.wttitleWrap {margin: 0; padding: 6px 0px; }
+.wtdnnTitle {margin: 0px; padding: 0; color: #ffffff; font-weight: bold;}
+.wtmoduleTitle {margin: 0; padding: 0; font-size: 18px;}
+.wtcontainerContent {padding:0; margin: 5px 0px 0px 0px;}
+
+/*======================================================
+White Container - no title ... styles for title are here in case that status changes.
+======================================================*/
+.wcontainerWrapper {padding: 10px; margin: 0px; background-color: #ffffff; box-shadow: 0px 0px 3px 2px rgba(0,0,0, .25); border: 1px solid #D3D3D3  }
+.wtitleWrapper {margin: 0; padding: 0px 0px 6px 0px;}
+.wdnnTitle {margin: 0px; padding: 0; font-weight: bold;}
+.wmoduleTitle {margin: 0; padding: 0; font-size: 24px; color: #646464;}
+
+/*======================================================
+White Container Subtle - no title ... Slightly less agressive shadow, additional padding near top.
+======================================================*/
+.wcontainerWrappersubtle {padding:10px; margin: 15px 0px 0px 0px; background-color: #ffffff; border: 1px solid #D3D3D3; box-shadow:0px 0px 2px rgba(0,0,0,.25); }
+
+/*======================================================
+Form Wrapper - make form inside module responsive
+======================================================*/
+.formwrap {
+    margin: 10px auto !important;
+}
+
+/* Container Styles for DotNetNuke */
+.container {padding: 0px 0px 0px 0px; margin: 0px 5px 0px 5px; 
+
+text-align: left; }
+
+
+.containerGray { background-color: #f3f3f3; padding: 0px 10px 10px 10px; 10px 5px 15px 5px; border: 1px solid #e5e5e5; 
+-webkit-box-shadow: 1px 1px 8px  #7a7a7a;
+-moz-box-shadow: 1px 1px 8px #7a7a7a;
+box-shadow: 1px 1px 8px #7a7a7a;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-align: left; }
+
+.containerGreen{ background-color: #E9EFE0; padding: 0px 10px 10px 10px; 10px 5px 15px 5px; border: 1px solid #E0EFCA; 
+-webkit-box-shadow: 1px 1px 8px  #7a7a7a;
+-moz-box-shadow: 1px 1px 8px #7a7a7a;
+box-shadow: 1px 1px 8px #7a7a7a;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; 
+text-align: left;}
+
+.containerNoTitle {padding: 10px; margin: 10px 5px 15px 5px; border: 1px solid #e5e5e5; 
+-webkit-box-shadow: 1px 1px 8px  #7a7a7a;
+-moz-box-shadow: 1px 1px 8px #7a7a7a;
+box-shadow: 1px 1px 8px #7a7a7a;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-align: left; }
+
+.containerStandard {
+padding: 0px 10px 10px 10px; 
+margin: 10px 5px 15px 5px; }
+
+.containerBorder {
+padding: 0px 10px 10px 10px; 
+margin: 10px 5px 15px 5px; border: 1px solid #e5e5e5; }
+
+.containerNoTitleNoBorder {
+padding: 0px 10px 10px 10px; 
+margin: 10px 5px 15px 5px; }
+
+
+.titleContainer {margin: 0 0 5px 0; padding: 0; border-bottom: 1px dashed #e5e5e5;}
+.titleContainerGreen {margin: 0 0 5px 0; padding: 0; border-bottom: 1px dashed #CEDFB6;}
+.titleContainerNoBorder {margin: 0 0 5px 0; padding: 0;}
+
+
+.titleContainer h3 {margin: 0 !important; padding: 8px 4px 5px 4px; font-size: 18px;}
+.titleContainerGreen h3 {margin: 0 !important; padding: 8px 4px 5px 4px; font-size: 18px;}
+.titleContainerNoBorder h3 {margin: 0 !important; padding: 8px 4px 5px 4px; font-size: 18px;}
+
+/* 	Daniel Containers 	- 	START 	*/
+
+	/*	simpleBorder	-	dynamic.ascx	-	START	*/
+
+	.simple .container_outer	{border: 1px solid #d2d2d2; margin:10px 0 0 0;
+	
+		-moz-box-shadow: 		0px 	2px 	5px 	rgba(0, 0, 0, .15);
+		-webkit-box-shadow: 	0px 	2px 	5px 	rgba(0, 0, 0, .15);
+		box-shadow: 			0px 	2px 	5px 	rgba(0, 0, 0, .15);
+	
+	}
+	
+	.simple .container_inner	{background:none; }
+	
+	.simple .container_inner .padding	{padding:4px; background:none;}
+	
+	.simple .container_inner .padding .background	{background:url(/images/container_trans.png); border: 1px solid #808080; text-align:center;}
+	
+	.simple .container_inner .padding .background p	{margin:5px; padding-top:5px; padding-bottom:10px; border-bottom: 1px dotted #FFC726; text-align:justify; color: #666666; text-shadow: 0px 1px 2px white;}
+	
+	.simple .background  h1, .simple .background h2, .simple .background h3, .simple .background h4, .simple .background h5, .simple .background h6	{margin:5px; margin-top:10px; padding:0; text-shadow: 1px 1px 0px white; text-align:left;}
+	
+	.simple .container_inner .padding .background img	{margin:5px;}
+	
+	.simple .container_inner .padding .background .Feedback_ControlWidth	{width:150px;}
+	
+	.simple .container_inner .padding .background span	{display:block; }
+	
+	.simple .container_inner .padding .background .messageFeedback	{margin:50px 0 0 -65px; width:215px;}
+	
+	/*	simpleBorder	-	dynamic.ascx	-	STOP	*/	
+	
+	/*	darkBorder.ascx	-	START	*/
+
+	.dark .container_outer	{border: 1px solid #d2d2d2;
+	
+		-moz-box-shadow: 		0px 	2px 	5px 	rgba(0, 0, 0, .15);
+		-webkit-box-shadow: 	0px 	2px 	5px 	rgba(0, 0, 0, .15);
+		box-shadow: 			0px 	2px 	5px 	rgba(0, 0, 0, .15);
+		margin:0 0 10px 0;
+	
+	
+	}
+	
+	/*Make Containers Play Nice*/
+	.dark .container_outer:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+	
+	/* Hides from IE-mac \*/
+	* html .dark .container_outer {height: 1%;}
+	/* End hide from IE-mac */
+	/*Stop Making Containers Play Nice*/
+		
+	
+	.dark .container_inner	{	
+								background:url(/images/container_trans_grad.png) #006233 center bottom repeat-x;
+								margin:5px;
+							}
+	
+	.dark .container_inner .padding					{padding:4px; background:none;}
+	
+	.dark .container_inner .padding .background		{border: 1px solid white; text-align:center;}
+	
+	.dark .container_inner .padding .background	p	{text-align:justify; margin:5px; color:white; text-shadow: 1px 0px 3px black;}
+	
+	.dark  .background  h1, .dark  .background h2, .dark  .background h3, .dark  .background h4, .dark  .background h5, .dark  .background h6	
+													{margin:5px; margin-top:10px; padding:0; text-shadow: 1px 1px 3px black; text-align:left; color: white;}
+	
+	/*	darkBorder.ascx	-	STOP	*/
+	
+	
+/* 	Daniel Containers 	- 	STOP 	*/
