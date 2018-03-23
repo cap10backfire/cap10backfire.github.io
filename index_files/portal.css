@@ -312,8 +312,8 @@ header { background: none repeat scroll 0 0 #016234;}
 .site-search { padding: 10px 0px 0px 5px;}
 .Hbutton a:link {
     color: #fff;
-    background-color: #016234;
-  box-shadow: 0 2px 3px rgba(0,0,0, .4);
+    /* background-color: #016234; */
+    box-shadow: 0 2px 3px rgba(0,0,0, .4);
 }
 .floatRight {width: auto!important}
 
@@ -506,6 +506,7 @@ position:relative;
 .contactInfo h1 {display:none}
 .ThemeEvents-Green .Event {width: 800px!important}
 }
+
 
 
 

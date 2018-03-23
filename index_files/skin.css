@@ -1862,6 +1862,8 @@ height: 400px;
 	background-size: cover;
     /*background: #3f413f;*/
 	height: 395px;
+    border-bottom: 7px solid #0062337a;
+    box-shadow: 0 0 7px #000;
 	
 }
 
@@ -4091,6 +4093,8 @@ table.internships-table td {
   height: 140px; /*same height as header*/
   margin-top: -140px; /*same height as header*/
   visibility: hidden;
+  z-index: -2;
+  position: absolute;
 }
 
 
